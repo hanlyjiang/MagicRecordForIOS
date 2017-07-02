@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EA8382141F0811C500A65036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382131F0811C500A65036 /* AppDelegate.swift */; };
-		EA8382161F0811C500A65036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382151F0811C500A65036 /* ViewController.swift */; };
+		EA8382161F0811C500A65036 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382151F0811C500A65036 /* RecordAudioViewController.swift */; };
 		EA8382191F0811C500A65036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8382171F0811C500A65036 /* Main.storyboard */; };
 		EA83821B1F0811C500A65036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA83821A1F0811C500A65036 /* Assets.xcassets */; };
 		EA83821E1F0811C500A65036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA83821C1F0811C500A65036 /* LaunchScreen.storyboard */; };
 		EA8382291F0811C500A65036 /* FunnyApp04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382281F0811C500A65036 /* FunnyApp04Tests.swift */; };
 		EA8382341F0811C500A65036 /* FunnyApp04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */; };
+		EA8382421F08ACAB00A65036 /* MagicAudioPlayUiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382411F08ACAB00A65036 /* MagicAudioPlayUiController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		EA8382101F0811C500A65036 /* FunnyApp04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyApp04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8382131F0811C500A65036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA8382151F0811C500A65036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8382151F0811C500A65036 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
 		EA8382181F0811C500A65036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA83821A1F0811C500A65036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA83821D1F0811C500A65036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		EA83822F1F0811C500A65036 /* FunnyApp04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyApp04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyApp04UITests.swift; sourceTree = "<group>"; };
 		EA8382351F0811C500A65036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8382411F08ACAB00A65036 /* MagicAudioPlayUiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicAudioPlayUiController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				EA8382131F0811C500A65036 /* AppDelegate.swift */,
-				EA8382151F0811C500A65036 /* ViewController.swift */,
+				EA8382151F0811C500A65036 /* RecordAudioViewController.swift */,
 				EA8382171F0811C500A65036 /* Main.storyboard */,
 				EA83821A1F0811C500A65036 /* Assets.xcassets */,
 				EA83821C1F0811C500A65036 /* LaunchScreen.storyboard */,
 				EA83821F1F0811C500A65036 /* Info.plist */,
+				EA8382411F08ACAB00A65036 /* MagicAudioPlayUiController.swift */,
 			);
 			path = FunnyApp04;
 			sourceTree = "<group>";
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8382161F0811C500A65036 /* ViewController.swift in Sources */,
+				EA8382161F0811C500A65036 /* RecordAudioViewController.swift in Sources */,
 				EA8382141F0811C500A65036 /* AppDelegate.swift in Sources */,
+				EA8382421F08ACAB00A65036 /* MagicAudioPlayUiController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -434,6 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

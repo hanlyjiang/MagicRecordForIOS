@@ -12,7 +12,7 @@
         <!--魔力录音-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="魔力录音" id="BYZ-38-t0r" customClass="ViewController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="魔力录音" id="BYZ-38-t0r" customClass="RecordAudioViewController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -67,12 +67,12 @@
         <!--魔力播放-->
         <scene sceneID="x9x-Uv-2JX">
             <objects>
-                <viewController title="魔力播放" id="NMZ-Um-y5x" sceneMemberID="viewController">
+                <viewController title="魔力播放" id="NMZ-Um-y5x" customClass="MagicAudioPlayUiController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D45-fO-C3A"/>
                         <viewControllerLayoutGuide type="bottom" id="eqq-8Q-P17"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="J6V-ou-gVY">
+                    <view key="view" contentMode="scaleToFill" id="J6V-ou-gVY" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
