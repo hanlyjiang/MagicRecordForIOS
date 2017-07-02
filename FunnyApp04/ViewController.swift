@@ -17,13 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad")
+        setRecordable()
         // Do any additional setup after loading the view, typically from a nib.
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setRecordable()
+        
         print("view Will Appear")
     }
     
