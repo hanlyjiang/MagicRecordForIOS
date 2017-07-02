@@ -39,7 +39,6 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ax-FA-zQ5"/>
-                                    <segue destination="NMZ-Um-y5x" kind="show" id="vVr-XK-9r7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -58,6 +57,7 @@
                         <outlet property="recordingLabel" destination="d4U-EK-iRq" id="w0Z-HP-lIK"/>
                         <outlet property="startRecordButton" destination="dbh-6D-UCB" id="j8B-v3-xdc"/>
                         <outlet property="stopRecordButton" destination="VaI-Xd-wmp" id="3I0-m1-NFW"/>
+                        <segue destination="NMZ-Um-y5x" kind="show" identifier="stopRecording" id="0e7-9i-hLb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -67,7 +67,7 @@
         <!--魔力播放-->
         <scene sceneID="x9x-Uv-2JX">
             <objects>
-                <viewController title="魔力播放" id="NMZ-Um-y5x" customClass="MagicAudioPlayUiController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="魔力播放" id="NMZ-Um-y5x" customClass="PlaySoundUiController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D45-fO-C3A"/>
                         <viewControllerLayoutGuide type="bottom" id="eqq-8Q-P17"/>
@@ -75,6 +75,13 @@
                     <view key="view" contentMode="scaleToFill" id="J6V-ou-gVY" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W96-HF-z7j">
+                                <rect key="frame" x="2" y="91" width="144" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Fast"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -106,6 +113,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fast" width="90" height="90"/>
         <image name="Record" width="155" height="155"/>
         <image name="Stop" width="155" height="155"/>
     </resources>
