@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var recordingLabel: UILabel!
+    @IBOutlet weak var startRecordButton: UIButton!
+    @IBOutlet weak var stopRecordButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        setRecordable()
         print("view Will Appear")
     }
     
@@ -42,10 +45,19 @@ class ViewController: UIViewController {
 
 
     @IBAction func startRecord(_ sender: Any) {
-        recordingLabel.text = "正在录音..."
+        recordingLabel.text = "正在录音"
+        startRecordButton.isEnabled = false
+        stopRecordButton.isEnabled = true
     }
     @IBAction func stopRecording(_ sender: Any) {
+        setRecordable()
+        
+    }
+    
+    func setRecordable() {
         recordingLabel.text = "点击录音按钮开始录音"
+        startRecordButton.isEnabled = true
+        stopRecordButton.isEnabled = false
     }
 }
 
