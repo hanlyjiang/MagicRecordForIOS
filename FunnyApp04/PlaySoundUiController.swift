@@ -10,6 +10,15 @@ import UIKit
 import AVFoundation
 
 class PlaySoundUiController: UIViewController ,AVAudioPlayerDelegate{
+    
+    @IBOutlet weak var slowButton:UIButton!
+    @IBOutlet weak var fastButton:UIButton!
+    @IBOutlet weak var highButton:UIButton!
+    @IBOutlet weak var lowButton:UIButton!
+    @IBOutlet weak var echoButton:UIButton!
+    @IBOutlet weak var reverbButton:UIButton!
+    @IBOutlet weak var stopButton:UIButton!
+
 
     var recordedAudoiUrl: URL!
     
@@ -19,7 +28,12 @@ class PlaySoundUiController: UIViewController ,AVAudioPlayerDelegate{
         print(recordedAudoiUrl)
     }
     
-    @IBAction func startPlay(_ sender: Any) {
-        
+    
+    @IBAction func playSound(_ sender: Any) {
+        print("play sound cliked")
+    }
+    
+    @IBAction func stopPlaySound(_ sender: Any){
+        print("stop play sound clicked")
     }
 }
