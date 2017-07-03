@@ -1,5 +1,5 @@
 //
-//  PlaySoundUiController.swift
+//  PlaySoundsViewController.swift
 //  FunnyApp04
 //  录音播放UI控制器
 //  Created by 蒋航 on 2017/7/2.
@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class PlaySoundUiController: UIViewController ,AVAudioPlayerDelegate{
+class PlaySoundsViewController: UIViewController{
     
     @IBOutlet weak var slowButton:UIButton!
     @IBOutlet weak var fastButton:UIButton!
@@ -18,14 +18,25 @@ class PlaySoundUiController: UIViewController ,AVAudioPlayerDelegate{
     @IBOutlet weak var echoButton:UIButton!
     @IBOutlet weak var reverbButton:UIButton!
     @IBOutlet weak var stopButton:UIButton!
+    
+    var recordedAudioURL:URL!
+    var audioFile:AVAudioFile!
+    var audioEngine:AVAudioEngine!
+    var audioPlayerNode: AVAudioPlayerNode!
+    var stopTimer: Timer!
+    
+    enum ButtonType: Int {
+        case slow = 0, fast, chipmunk, vader, echo, reverb
+    }
 
 
     var recordedAudoiUrl: URL!
     
     override func viewDidLoad() {
-        //
+        configureUI(.notPlaying)
         print("PlaySoundUiController view did load And recordedAudoiUrl is :")
         print(recordedAudoiUrl)
+        
     }
     
     

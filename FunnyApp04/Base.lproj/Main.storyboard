@@ -68,7 +68,7 @@
         <!--魔力播放-->
         <scene sceneID="x9x-Uv-2JX">
             <objects>
-                <viewController title="魔力播放" id="NMZ-Um-y5x" customClass="PlaySoundUiController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="魔力播放" id="NMZ-Um-y5x" customClass="PlaySoundsViewController" customModule="FunnyApp04" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D45-fO-C3A"/>
                         <viewControllerLayoutGuide type="bottom" id="eqq-8Q-P17"/>

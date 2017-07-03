@@ -15,6 +15,7 @@
 		EA8382291F0811C500A65036 /* FunnyApp04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382281F0811C500A65036 /* FunnyApp04Tests.swift */; };
 		EA8382341F0811C500A65036 /* FunnyApp04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */; };
 		EA8382421F08ACAB00A65036 /* PlaySoundUiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382411F08ACAB00A65036 /* PlaySoundUiController.swift */; };
+		EA8382461F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8382451F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyApp04UITests.swift; sourceTree = "<group>"; };
 		EA8382351F0811C500A65036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8382411F08ACAB00A65036 /* PlaySoundUiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundUiController.swift; sourceTree = "<group>"; };
+		EA8382451F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaysoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EA8382121F0811C500A65036 /* FunnyApp04 */ = {
 			isa = PBXGroup;
 			children = (
+				EA8382451F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift */,
 				EA8382131F0811C500A65036 /* AppDelegate.swift */,
 				EA8382151F0811C500A65036 /* RecordAudioViewController.swift */,
 				EA8382171F0811C500A65036 /* Main.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8382161F0811C500A65036 /* RecordAudioViewController.swift in Sources */,
+				EA8382461F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift in Sources */,
 				EA8382141F0811C500A65036 /* AppDelegate.swift in Sources */,
 				EA8382421F08ACAB00A65036 /* PlaySoundUiController.swift in Sources */,
 			);
