@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class PlaySoundUiController: UIViewController {
+class PlaySoundUiController: UIViewController ,AVAudioPlayerDelegate{
 
     var recordedAudoiUrl: URL!
     
@@ -18,8 +19,7 @@ class PlaySoundUiController: UIViewController {
         print(recordedAudoiUrl)
     }
     
-    
-
-    
-
+    @IBAction func startPlay(_ sender: Any) {
+        
+    }
 }
