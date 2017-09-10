@@ -425,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QR4X9EVF6V;
 				INFOPLIST_FILE = FunnyApp04/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QR4X9EVF6V;
 				INFOPLIST_FILE = FunnyApp04/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,6 +526,7 @@
 				EA83823A1F0811C500A65036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA83823B1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04Tests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +535,7 @@
 				EA83823D1F0811C500A65036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA83823E1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04UITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +544,7 @@
 				EA8382401F0811C500A65036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

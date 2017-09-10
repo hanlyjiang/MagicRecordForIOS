@@ -29,22 +29,45 @@ class PlaySoundsViewController: UIViewController{
         case slow = 0, fast, chipmunk, vader, echo, reverb
     }
 
+    
 
-    var recordedAudoiUrl: URL!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear")
+        super.viewWillAppear(animated)
+        configureUI(.notPlaying)
+    }
     
     override func viewDidLoad() {
-        configureUI(.notPlaying)
-        print("PlaySoundUiController view did load And recordedAudoiUrl is :")
-        print(recordedAudoiUrl)
-        
+        super.viewDidLoad()
+        print("PlaySoundUiController view did load And recordedAudoiUrl is : \(recordedAudioURL)")
+        setupAudio()
     }
     
     
-    @IBAction func playSound(_ sender: Any) {
+    @IBAction func playSound(_ sender: UIButton) {
         print("play sound cliked")
+        switch(ButtonType(rawValue: sender.tag)!) {
+        case .slow:
+            playSound(rate: 0.5)
+        case .fast:
+            playSound(rate: 1.5)
+        case .chipmunk:
+            playSound(pitch: 1000)
+        case .vader:
+            playSound(pitch: -1000)
+        case .echo:
+            playSound(echo: true)
+        case .reverb:
+            playSound(reverb: true)
+        }
+        
+        configureUI(.playing)
+
     }
     
     @IBAction func stopPlaySound(_ sender: Any){
         print("stop play sound clicked")
+        stopAudio()
     }
 }
