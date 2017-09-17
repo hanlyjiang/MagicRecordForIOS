@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA83820F1F0811C500A65036"
-               BuildableName = "FunnyApp04.app"
-               BlueprintName = "FunnyApp04"
-               ReferencedContainer = "container:FunnyApp04.xcodeproj">
+               BuildableName = "MagicRecorder.app"
+               BlueprintName = "MagicRecorder"
+               ReferencedContainer = "container:MagicRecorder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA8382231F0811C500A65036"
-               BuildableName = "FunnyApp04Tests.xctest"
-               BlueprintName = "FunnyApp04Tests"
-               ReferencedContainer = "container:FunnyApp04.xcodeproj">
+               BuildableName = "MagicRecorderTests.xctest"
+               BlueprintName = "MagicRecorderTests"
+               ReferencedContainer = "container:MagicRecorder.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA83822E1F0811C500A65036"
-               BuildableName = "FunnyApp04UITests.xctest"
-               BlueprintName = "FunnyApp04UITests"
-               ReferencedContainer = "container:FunnyApp04.xcodeproj">
+               BuildableName = "MagicRecorderUITests.xctest"
+               BlueprintName = "MagicRecorderUITests"
+               ReferencedContainer = "container:MagicRecorder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA83820F1F0811C500A65036"
-            BuildableName = "FunnyApp04.app"
-            BlueprintName = "FunnyApp04"
-            ReferencedContainer = "container:FunnyApp04.xcodeproj">
+            BuildableName = "MagicRecorder.app"
+            BlueprintName = "MagicRecorder"
+            ReferencedContainer = "container:MagicRecorder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA83820F1F0811C500A65036"
-            BuildableName = "FunnyApp04.app"
-            BlueprintName = "FunnyApp04"
-            ReferencedContainer = "container:FunnyApp04.xcodeproj">
+            BuildableName = "MagicRecorder.app"
+            BlueprintName = "MagicRecorder"
+            ReferencedContainer = "container:MagicRecorder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA83820F1F0811C500A65036"
-            BuildableName = "FunnyApp04.app"
-            BlueprintName = "FunnyApp04"
-            ReferencedContainer = "container:FunnyApp04.xcodeproj">
+            BuildableName = "MagicRecorder.app"
+            BlueprintName = "MagicRecorder"
+            ReferencedContainer = "container:MagicRecorder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

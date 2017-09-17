@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA8382101F0811C500A65036 /* FunnyApp04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyApp04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8382101F0811C500A65036 /* MagicRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8382131F0811C500A65036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA8382151F0811C500A65036 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
 		EA8382181F0811C500A65036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA83821A1F0811C500A65036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA83821D1F0811C500A65036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA83821F1F0811C500A65036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA8382241F0811C500A65036 /* FunnyApp04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyApp04Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8382241F0811C500A65036 /* MagicRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8382281F0811C500A65036 /* FunnyApp04Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyApp04Tests.swift; sourceTree = "<group>"; };
 		EA83822A1F0811C500A65036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA83822F1F0811C500A65036 /* FunnyApp04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyApp04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA83822F1F0811C500A65036 /* MagicRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyApp04UITests.swift; sourceTree = "<group>"; };
 		EA8382351F0811C500A65036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8382411F08ACAB00A65036 /* PlaySoundUiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundUiController.swift; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 		EA8382071F0811C500A65036 = {
 			isa = PBXGroup;
 			children = (
-				EA8382121F0811C500A65036 /* FunnyApp04 */,
-				EA8382271F0811C500A65036 /* FunnyApp04Tests */,
-				EA8382321F0811C500A65036 /* FunnyApp04UITests */,
+				EA8382121F0811C500A65036 /* MagicRecord */,
+				EA8382271F0811C500A65036 /* MagicRecordTests */,
+				EA8382321F0811C500A65036 /* MagicRecordUITests */,
 				EA8382111F0811C500A65036 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,52 +91,63 @@
 		EA8382111F0811C500A65036 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA8382101F0811C500A65036 /* FunnyApp04.app */,
-				EA8382241F0811C500A65036 /* FunnyApp04Tests.xctest */,
-				EA83822F1F0811C500A65036 /* FunnyApp04UITests.xctest */,
+				EA8382101F0811C500A65036 /* MagicRecorder.app */,
+				EA8382241F0811C500A65036 /* MagicRecorderTests.xctest */,
+				EA83822F1F0811C500A65036 /* MagicRecorderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA8382121F0811C500A65036 /* FunnyApp04 */ = {
+		EA8382121F0811C500A65036 /* MagicRecord */ = {
 			isa = PBXGroup;
 			children = (
 				EA8382451F0A99CE00A65036 /* PlaysoundsViewController+Audio.swift */,
 				EA8382131F0811C500A65036 /* AppDelegate.swift */,
 				EA8382151F0811C500A65036 /* RecordAudioViewController.swift */,
-				EA8382171F0811C500A65036 /* Main.storyboard */,
-				EA83821A1F0811C500A65036 /* Assets.xcassets */,
-				EA83821C1F0811C500A65036 /* LaunchScreen.storyboard */,
-				EA83821F1F0811C500A65036 /* Info.plist */,
+				EAF4ADAC1F6EB71C00654EED /* Support Files */,
 				EA8382411F08ACAB00A65036 /* PlaySoundUiController.swift */,
 			);
+			name = MagicRecord;
 			path = FunnyApp04;
 			sourceTree = "<group>";
 		};
-		EA8382271F0811C500A65036 /* FunnyApp04Tests */ = {
+		EA8382271F0811C500A65036 /* MagicRecordTests */ = {
 			isa = PBXGroup;
 			children = (
 				EA8382281F0811C500A65036 /* FunnyApp04Tests.swift */,
 				EA83822A1F0811C500A65036 /* Info.plist */,
 			);
+			name = MagicRecordTests;
 			path = FunnyApp04Tests;
 			sourceTree = "<group>";
 		};
-		EA8382321F0811C500A65036 /* FunnyApp04UITests */ = {
+		EA8382321F0811C500A65036 /* MagicRecordUITests */ = {
 			isa = PBXGroup;
 			children = (
 				EA8382331F0811C500A65036 /* FunnyApp04UITests.swift */,
 				EA8382351F0811C500A65036 /* Info.plist */,
 			);
+			name = MagicRecordUITests;
 			path = FunnyApp04UITests;
+			sourceTree = "<group>";
+		};
+		EAF4ADAC1F6EB71C00654EED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8382171F0811C500A65036 /* Main.storyboard */,
+				EA83821A1F0811C500A65036 /* Assets.xcassets */,
+				EA83821C1F0811C500A65036 /* LaunchScreen.storyboard */,
+				EA83821F1F0811C500A65036 /* Info.plist */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA83820F1F0811C500A65036 /* FunnyApp04 */ = {
+		EA83820F1F0811C500A65036 /* MagicRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA8382381F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04" */;
+			buildConfigurationList = EA8382381F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorder" */;
 			buildPhases = (
 				EA83820C1F0811C500A65036 /* Sources */,
 				EA83820D1F0811C500A65036 /* Frameworks */,
@@ -146,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = FunnyApp04;
+			name = MagicRecorder;
 			productName = FunnyApp04;
-			productReference = EA8382101F0811C500A65036 /* FunnyApp04.app */;
+			productReference = EA8382101F0811C500A65036 /* MagicRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA8382231F0811C500A65036 /* FunnyApp04Tests */ = {
+		EA8382231F0811C500A65036 /* MagicRecorderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA83823B1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04Tests" */;
+			buildConfigurationList = EA83823B1F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorderTests" */;
 			buildPhases = (
 				EA8382201F0811C500A65036 /* Sources */,
 				EA8382211F0811C500A65036 /* Frameworks */,
@@ -164,14 +175,14 @@
 			dependencies = (
 				EA8382261F0811C500A65036 /* PBXTargetDependency */,
 			);
-			name = FunnyApp04Tests;
+			name = MagicRecorderTests;
 			productName = FunnyApp04Tests;
-			productReference = EA8382241F0811C500A65036 /* FunnyApp04Tests.xctest */;
+			productReference = EA8382241F0811C500A65036 /* MagicRecorderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA83822E1F0811C500A65036 /* FunnyApp04UITests */ = {
+		EA83822E1F0811C500A65036 /* MagicRecorderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA83823E1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04UITests" */;
+			buildConfigurationList = EA83823E1F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorderUITests" */;
 			buildPhases = (
 				EA83822B1F0811C500A65036 /* Sources */,
 				EA83822C1F0811C500A65036 /* Frameworks */,
@@ -182,9 +193,9 @@
 			dependencies = (
 				EA8382311F0811C500A65036 /* PBXTargetDependency */,
 			);
-			name = FunnyApp04UITests;
+			name = MagicRecorderUITests;
 			productName = FunnyApp04UITests;
-			productReference = EA83822F1F0811C500A65036 /* FunnyApp04UITests.xctest */;
+			productReference = EA83822F1F0811C500A65036 /* MagicRecorderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA83820B1F0811C500A65036 /* Build configuration list for PBXProject "FunnyApp04" */;
+			buildConfigurationList = EA83820B1F0811C500A65036 /* Build configuration list for PBXProject "MagicRecorder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA83820F1F0811C500A65036 /* FunnyApp04 */,
-				EA8382231F0811C500A65036 /* FunnyApp04Tests */,
-				EA83822E1F0811C500A65036 /* FunnyApp04UITests */,
+				EA83820F1F0811C500A65036 /* MagicRecorder */,
+				EA8382231F0811C500A65036 /* MagicRecorderTests */,
+				EA83822E1F0811C500A65036 /* MagicRecorderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		EA8382261F0811C500A65036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA83820F1F0811C500A65036 /* FunnyApp04 */;
+			target = EA83820F1F0811C500A65036 /* MagicRecorder */;
 			targetProxy = EA8382251F0811C500A65036 /* PBXContainerItemProxy */;
 		};
 		EA8382311F0811C500A65036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA83820F1F0811C500A65036 /* FunnyApp04 */;
+			target = EA83820F1F0811C500A65036 /* MagicRecorder */;
 			targetProxy = EA8382301F0811C500A65036 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyApp04.app/FunnyApp04";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicRecorder.app/MagicRecorder";
 			};
 			name = Debug;
 		};
@@ -475,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanlyjiang.github.FunnyApp04Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyApp04.app/FunnyApp04";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicRecorder.app/MagicRecorder";
 			};
 			name = Release;
 		};
@@ -510,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA83820B1F0811C500A65036 /* Build configuration list for PBXProject "FunnyApp04" */ = {
+		EA83820B1F0811C500A65036 /* Build configuration list for PBXProject "MagicRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA8382361F0811C500A65036 /* Debug */,
@@ -519,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA8382381F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04" */ = {
+		EA8382381F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA8382391F0811C500A65036 /* Debug */,
@@ -528,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA83823B1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04Tests" */ = {
+		EA83823B1F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA83823C1F0811C500A65036 /* Debug */,
@@ -537,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA83823E1F0811C500A65036 /* Build configuration list for PBXNativeTarget "FunnyApp04UITests" */ = {
+		EA83823E1F0811C500A65036 /* Build configuration list for PBXNativeTarget "MagicRecorderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA83823F1F0811C500A65036 /* Debug */,
